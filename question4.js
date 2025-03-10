@@ -56,12 +56,12 @@ function deleteTask(id) {
 }
 
 // Test the functions
-addTask("Study JavaScript", "Learn the basics of JavaScript");
-addTask("Build a CRUD system", "Practice creating and managing data");
+addTask("Db pass", "learn db");
+addTask("mo sayaw", "manilhig");
 
 viewTasks(); // show tanan
 
-updateTask(1, "Study Advanced JavaScript", "Learn closures and prototypes");
+updateTask(1, "Study Advanced", "Learn closures and prototypes");
 deleteTask(2);
 
 viewTasks(); // Show ang tanan
